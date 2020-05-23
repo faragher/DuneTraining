@@ -1,0 +1,26 @@
+<ModMetaData>
+	<name>Dune Training</name>
+	<author>Between The Borders</author>
+    <packageId>BetweenTheBorders.DuneTraining</packageId>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<description>Training from the Dune universe.\n\n\n
+This adds training for the Sardaukar, Fedaykin, a more generic "Weirding Way," generic House militaries, and Suk doctors.\n\n
+It does not include backgrounds or equipment, but does create a set of bonuses that do make them superior to other pawns of similar training and equipment, as well as preventing hardened death-world natives from going into a sad wander because they had to eat standing up.\n\n
+The Suk Doctors are also universally professional and incapable of violence. As they should be. Yueh. A thousand deaths, Yueh.\n\n\n\n
+Again, the balance should be considered to be largely untested, these are generally in bounds with normal starting traits, although the break threshold may be a bit much.\n\n\n
+
+Thanks for all the support!\n\n
+
+All RimWorld mod sources uploaded to https://github.com/faragher/ (but it may take a while after release)\n\n
+
+
+Dune and all its related IPs are, of course, property of Frank Herbert, his descendants and licensees. No infringement intended, etc.  
+
+
+</description>
+	<url>https://steamcommunity.com/profiles/76561197980482234/myworkshopfiles/?appid=294100</url>
+</ModMetaData>
+
+

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+  <TraitDef>
+    <defName>MilitaryTraining</defName>
+    <commonality>.5</commonality>
+    <degreeDatas>
+      <li>
+        <label>sardaukar training</label>
+        <description>[PAWN_nameDef]'s time on Salusa Secundus made them hard, and Imperial combat training made a razor edge. Training as a Sardaukar, one of the Emperor's elite, has made them into what is widely believed to be the best solier Humanity has created.</description>
+        <degree>4</degree>
+        <statOffsets>
+          <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <MeleeHitChance>4</MeleeHitChance>
+          <PainShockThreshold>.30</PainShockThreshold>
+        </statOffsets>
+        <marketValueFactorOffset>10.0</marketValueFactorOffset>
+        <skillGains>
+          <li>
+            <key>Melee</key>
+            <value>3</value>
+          </li>
+          <li>
+            <key>Shooting</key>
+            <value>3</value>
+          </li>
+        </skillGains>
+
+      </li>
+      <li>
+        <label>fedaykin training</label>
+        <description>[PAWN_nameDef] grew up in the deserts of Aarakis and was trained as a raider and commando. An expert in body control and close combat, [PAWN_nameDef] is one of the most dangerous human beings on the planet.</description>
+        <degree>3</degree>
+        <statOffsets>
+          <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+          <MeleeDodgeChance>15</MeleeDodgeChance>
+          <MeleeHitChance>6</MeleeHitChance>
+          <PainShockThreshold>.30</PainShockThreshold>
+        </statOffsets>
+        <marketValueFactorOffset>5.0</marketValueFactorOffset>
+        <skillGains>
+          <li>
+            <key>Melee</key>
+            <value>4</value>
+          </li>
+        </skillGains>
+        <statFactors>
+          <PawnTrapSpringChance>0.1</PawnTrapSpringChance>
+        </statFactors>
+      </li>
+      <li>
+        <label>weirding way</label>
+        <description>[PAWN_nameDef] has been trained in Prana Bindu or a similar art, giving them increased control over their body and a marked advantage in close combat.</description>
+        <degree>2</degree>
+        <statOffsets>
+          <MeleeDodgeChance>15</MeleeDodgeChance>
+          <MeleeHitChance>1</MeleeHitChance>
+        </statOffsets>
+        <statFactors>
+          <PawnTrapSpringChance>0.1</PawnTrapSpringChance>
+        </statFactors>
+      </li>
+      <li>
+        <label>house military training</label>
+        <description>[PAWN_nameDef] has been trained by the military of a Great House. Beyond weapon training, this provides courage and loyalty under pressure.</description>
+        <degree>1</degree>
+        <statOffsets>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+          <MeleeHitChance>1</MeleeHitChance>
+        </statOffsets>
+        <skillGains>
+          <li>
+            <key>Melee</key>
+            <value>1</value>
+          </li>
+          <li>
+            <key>Shooting</key>
+            <value>1</value>
+          </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>SukDoctor</li>
+    </conflictingTraits>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>SukDoctor</defName>
+    <commonality>0.3</commonality>
+    <degreeDatas>
+        <li>
+        <label>Suk doctor</label>
+        <description>[PAWN_nameDef] is a Suk doctor, expert in their field and indoctrinated to never take a human life. They say they are entirely incorruptable and could even be trusted alone with an emperor.</description>
+        <degree>1</degree>
+        <statOffsets>
+          <MentalBreakThreshold>-0.5</MentalBreakThreshold>
+        </statOffsets>
+        <skillGains>
+          <li>
+            <key>Medicine</key>
+            <value>10</value>
+          </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>MilitaryTraining</li>
+    </conflictingTraits>
+    <disabledWorkTags>
+      <li>Violent</li>
+    </disabledWorkTags>
+  </TraitDef>
+
+
+
+</Defs>
